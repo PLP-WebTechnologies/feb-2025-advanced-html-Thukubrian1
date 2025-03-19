@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="list">
+    <h1>An ordered list with roman numerals</h1>
+    <h3>Types of cars</h3>
+    <ol start="1" type="i">
+        <li>Mercedez Benz</li>
+        <li>Volvo</li>
+        <li>BMW</li>
+        <li>Audi</li>
+        <li>Range Rover</li>
+        <li>Land Cruiser</li>
+        <li>Bently</li>
+        <li>Rolls Royce</li>
+        <li>Mustang</li>
+        <li>Hyundai</li>
+    </ol>
+    </div>
+
+    <div class="image">
+    <image src="https://www.pexels.com/photo/tropical-palm-trees-against-vibrant-sunset-sky-30815651"
+     alt="Mercedes Benz">
+    </div>
+
+     <div class="table">
+     <table>
+        <thead>
+            <tr>
+            <th colspan="4">
+                Contacts table
+            </th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Emial</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Thuku Brian</td>
+                <td>1234, Nairobi</td>
+                <td>0712345678</td>
+                <td>brian@gmail.com</td>               
+            </tr>
+            <tr>
+                <td>James Sikiwe</td>
+                <td>4321, Capetown</td>
+                <td>0712345678</td>
+                <td>sikiwe@gmail.com</td>               
+            </tr>
+            <tr>
+                <td>Suleiman Odoo</td>
+                <td>1234, Nigeria</td>
+                <td>0712345678</td>
+                <td>odoo@gmail.com</td>               
+            </tr>
+            <tr>
+                <td>Julius Nyerere</td>
+                <td>1234,Tanzania</td>
+                <td>0712345678</td>
+                <td>nyerere@gmail.com</td>               
+            </tr>
+            <tr>
+                <td>Herman Kukimoto</td>
+                <td>1234, Japan</td>
+                <td>0712345678</td>
+                <td>kukimoto@gmail.com</td>               
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <th colspan="4">
+                &copy 2025
+            </th>
+        </tfoot>
+     </table>
+    </div>
+
+    <div class="form">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+        
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option selected disabled>--Select a country--</option>
+            <option>Kenya</option>
+            <option>South Africa</option>
+            <option>Nigeria</option>
+            <option>Ghana</option>
+            <option>Japan</option>
+            <option>Tanzania</option>
+            <option>Egypt</option>
+        </select>
+
+        <div>
+        <label for="course">What do you want to pursue:</label><br>
+        <input type="radio" id="course" name="course" value="Web Development">
+        <label for="course">Web Development</label><br>
+        <input type="radio" id="course" name="course" value="Database">
+        <label for="course">Database</label><br>
+        <input type="radio" id="course" name="course" value="Python">Python
+        <label for="course">Python</label><br>
+        <input type="radio" id="course" name="course" value="Entreprenuship">
+        <label for="course">Entrepreneurship</label><br><br>
+
+        <label for="skills">Skills:</label><br>
+        <input type="checkbox" id="skills" name="skills" value="HTML">
+        <label for="skills">HTML</label><br>
+        <input type="checkbox" id="skills" name="skills" value="CSS">
+        <label for="skills">CSS</label><br>
+        <input type="checkbox" id="skills" name="skills" value="JavaScript">
+        <label for="skills">JavaScript</label><br>
+        <input type="checkbox" id="skills" name="skills" value="Python">
+        <label for="skills">Python</label><br>
+        <input type="checkbox" id="skills" name="skills" value="Java">
+        <label for="skills">MySQL</label><br>
+        <input type="checkbox" id="skills" name="skills" value="C++">
+        <label for="skills">React</label><br>
+        <input type="checkbox" id="skills" name="skills" value="C#">
+        <label for="skills">Nodejs</label><br>
+        <input type="checkbox" id="skills" name="skills" value="Ruby">
+        <label for="skills">Typescript</label><br>
+        <input type="checkbox" id="skills" name="skills" value="PHP">
+        <label for="skills">PHP</label>
+        </div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirm password">Confirm Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="date">Date of birth</label>
+        <input type="date" id="date" name="date" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+
+<div class="media">
+
+<h1>Audio</h1>
+<audio controls>
+    <source src="stella.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<h1>Video</h1>
+<video controls width="500px" height="400px">
+    <source src="clip.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+</body>
+</html>
+
+<style>
+    .media{
+
+        display: flex;
+        flex-direction: column;
+        margin-block-start:20px;
+        
+    }
+    table,th,td{
+
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table{
+        text-align: center;
+        
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        margin-block-start: 20px;
+        padding: 20px;
+        inline-size: fit-content;
+        border-radius: 5px;
+
+        div{
+            padding-block-end: 10px;
+            padding-block-start: 20px;
+        }
+    }
+
+    button{
+
+        background-color: black;
+        color: white;
+        inline-size: 60px;
+        align-self: center;
+        margin-block-start: 20px;
+    }
+</style>
